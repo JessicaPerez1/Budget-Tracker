@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This app allows you to track your budget when adding, subtracting sums and people"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#317EFB" />
     <link
@@ -27,11 +31,19 @@
       </div>
 
       <div class="form">
-        <input type="text" id="t-name" placeholder="Name of transaction" />
+        <label for="name of transaction">Transaction name:</label>
+        <input
+          type="text"
+          id="t-name"
+          name="name of transaction"
+          placeholder="Name of transaction"
+        />
+        <label for="name of transaction">Transaction amount:</label>
         <input
           type="number"
           min="0"
           id="t-amount"
+          name="transaction amount"
           placeholder="Transaction amount"
         />
         <button id="add-btn">
