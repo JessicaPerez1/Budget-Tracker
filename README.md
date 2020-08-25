@@ -17,8 +17,8 @@ The user will be able to add expenses and deposits to their budget with or witho
 ## Installation
 
 - After cloning the repo to your local computer, open it in your code editor. Make sure to `npm install` - the main dependencies used are `express` and `mongoose`, for working with database and displaying HTML pages.
-- Run `mongo` in your terminal, you can create a database with `use databasename`. You can connect to `Robo 3t` for running your app localy in your browser, and the data will be saved to your `Robo 3t`.
-- Otherwise you can click the deployed app link.
+- Run `mongo` in your terminal, you can create a database with `use databasename`. You can connect to `Robo 3t` for running your app locally in your browser, and the data will be saved to your `Robo 3t` collection.
+- Otherwise you can click the deployed app link and start tracking your budget!
 
 ## Usage
 
@@ -34,7 +34,7 @@ The user will be able to add expenses and deposits to their budget with or witho
 
 ### App-screenshots
 
-![Workout Tracker screenshot]()
+![Workout Tracker screenshot](assets/budget-tracker.png)
 
 ### Questions
 
