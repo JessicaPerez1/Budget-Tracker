@@ -3,7 +3,6 @@
 ## Description
 
 Add functionality to an existing Budget Tracker application to allow for offline access and functionality.
-
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
 ## Table of Contents
@@ -16,7 +15,7 @@ The user will be able to add expenses and deposits to their budget with or witho
 
 ## Installation
 
-- After cloning the repo to your local computer, open it in your code editor. Make sure to `npm install` - the main dependencies used are `express` and `mongoose`, for working with database and displaying HTML pages.
+- After cloning the repo to your computer, open it in your code editor. Make sure to `npm install` - the main dependencies used are `express` and `mongoose`, for working with database and displaying HTML pages.
 - Run `mongo` in your terminal, you can create a database with `use databasename`. You can connect to `Robo 3t` for running your app locally in your browser, and the data will be saved to your `Robo 3t` collection.
 - Otherwise you can click the deployed app link and start tracking your budget!
 
@@ -40,5 +39,5 @@ The user will be able to add expenses and deposits to their budget with or witho
 
 For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
 
-- [JessicaPerez1 Github link:](https://github.com/JessicaPerez1)
+- [JessicaPerez1 Github link](https://github.com/JessicaPerez1)
 - 1jessicaperez@gmail.com
